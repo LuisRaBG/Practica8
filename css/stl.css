@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+
+/*para asegurarnos de que serán tratados como regularmente
+se hace con elementos <div> y de este modo construir
+el modelo de caja*/
+
+/*Centrando el cuerpo*/
+body {
+    text-align: center;
+    /*background-image: url("paper.gif");*/
+    /*background-color: lightblue;*/
+}
+
+/*Definiendo las propiedades de la caja principal*/
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: r;
+}
+
+/* Agregando estilos para <header>.*/
+#cabecera {
+    background: #FFFBB9;
+    border: 1px solid #999999;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Agregando estilos para <nav>.*/
+#menu {
+    background: #CCCCCC;
+    padding: 5px 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#menu li {
+    display: inline-flex;
+    list-style: none;
+    /*list-style: square inside url("sqpurple.gif");*/
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+
+/*Section y aside*/
+/*La propiedad flotante especifica cómo debe flotar un elemento.
+Nota: ¡Los elementos absolutamente posicionados ignoran
+la propiedad de flotación!
+Nota: los elementos después de un elemento flotante fluirán a su alrededor.
+Para evitar esto, use la propiedad clear o el clearfix hack
+*/
+#seccion {
+    float: right;
+    width: 660px;
+    margin: 20px;
+}
+
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+
+/*Footer*/
+#pie {
+    clear: both;
+    /* No permita elementos flotantes en el lado izquierdo
+                o derecho de un elemento <p> especificado:*/
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+/*imagenes*/
+#imagen {
+    width: 20%;
+    height: 20%;
+}
+
+#imagen2 {
+    width: 15%;
+    height: 10%;
+}
+
+.title__box {
+    text-align: center;
+    font-size: 2.3em;
+    font-family: inherit;
+    color: red;
+}
+
+.subtitle__box {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline(#451a26)
+}
+
+/*Agregando los últimos toques a nuestro diseño básico.*/
+article {
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+}
+
+.foto {
+    left: 15px
+}
+
+.img {
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.time {
+    align-content: left;
+    color: #999999;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    color: crimson;
+    font-size: 25px;
+    border: 3px solid #000;
+}
+
+.data__icons {
+    list-style: none;
+}
+
+.data__icon {
+    font-size: 20px;
+}
+
+.data__icon b {
+    font-size: 21px;
+}
+
+.box__head{
+    text-align: left;
+}
+
+b {
+    text-align: center;
+}
+
+ul {
+    padding: 12px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+ol {
+    background-color: yellow;
+    border: 3px solid #000;
+    margin: 15px;
+}
+
+li {
+    text-align: center;
+}
+
+.log{
+  width: 40px;
+  height: 40px;
+}
